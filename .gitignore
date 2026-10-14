@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# Build output
+build/
+dist/
+
+# Compiled translations (built from po/)
+src/handcue/locale/
+
+# Never commit personal data or downloaded models
+*.enc
+*.task
+*.tflite
+*.onnx
+config.json

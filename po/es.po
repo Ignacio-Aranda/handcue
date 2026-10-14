@@ -1,0 +1,1997 @@
+# Spanish translations for handcue.
+# Copyright (C) 2026 Ignacio Aranda
+# This file is distributed under the same license as the handcue project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: handcue 0.1.0\n"
+"Report-Msgid-Bugs-To: https://github.com/Ignacio-Aranda/handcue/issues\n"
+"POT-Creation-Date: 2026-10-14 11:24+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Ignacio Aranda\n"
+"Language: es\n"
+"Language-Team: Spanish\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: src/handcue/actions.py:39
+msgid "Only web addresses can be opened (http:// or https://)"
+msgstr "Solo se pueden abrir direcciones web (http:// o https://)"
+
+#: src/handcue/actions.py:60
+msgid "No media player is open"
+msgstr "No hay ningún reproductor multimedia abierto"
+
+#: src/handcue/actions.py:96
+#, python-brace-format
+msgid "Too many actions in a row, skipping “{name}”"
+msgstr "Demasiadas acciones seguidas: se descarta «{name}»"
+
+#: src/handcue/actions.py:106
+#, python-brace-format
+msgid "Could not complete “{name}”: {error}"
+msgstr "No se pudo completar «{name}»: {error}"
+
+#: src/handcue/actions.py:144
+msgid "Gesture detected"
+msgstr "Gesto detectado"
+
+#: src/handcue/actions.py:154
+msgid "No screenshot tool found (spectacle or gnome-screenshot)"
+msgstr "No hay ninguna herramienta de capturas (spectacle o gnome-screenshot)"
+
+#: src/handcue/app.py:40
+msgid "Control your computer with hand, face and body gestures from your webcam."
+msgstr "Controla el ordenador con gestos de manos, cara y cuerpo desde la webcam."
+
+#: src/handcue/app.py:42
+msgid "start hidden in the system tray (used when starting on login)"
+msgstr "arrancar oculto en la bandeja del sistema (se usa al iniciar sesión)"
+
+#: src/handcue/app.py:44
+msgid "apply the saved camera settings and exit"
+msgstr "aplicar los ajustes de cámara guardados y salir"
+
+#: src/handcue/app.py:78
+#, python-brace-format
+msgid "Could not set up start on login: {error}"
+msgstr "No se pudo configurar el arranque al iniciar sesión: {error}"
+
+#: src/handcue/camera.py:261 src/handcue/ui/camera_panel.py:102
+msgid "Factory defaults"
+msgstr "De fábrica"
+
+#: src/handcue/camera.py:262
+msgid "Natural"
+msgstr "Natural"
+
+#: src/handcue/camera.py:263
+msgid "Vivid"
+msgstr "Vívido"
+
+#: src/handcue/camera.py:264
+msgid "Low light"
+msgstr "Poca luz"
+
+#: src/handcue/camera.py:266
+msgid "Warm"
+msgstr "Cálido"
+
+#: src/handcue/camera.py:268
+msgid "Cool"
+msgstr "Frío"
+
+#: src/handcue/camera.py:269
+msgid "Backlight"
+msgstr "Contraluz"
+
+#: src/handcue/camera.py:270
+msgid "Black and white"
+msgstr "Blanco y negro"
+
+#: src/handcue/catalog.py:19 src/handcue/ui/gestures_panel.py:195
+msgid "Hands"
+msgstr "Manos"
+
+#: src/handcue/catalog.py:20 src/handcue/ui/gestures_panel.py:196
+msgid "Face"
+msgstr "Cara"
+
+#: src/handcue/catalog.py:21 src/handcue/ui/gestures_panel.py:197
+msgid "Body"
+msgstr "Cuerpo"
+
+#: src/handcue/catalog.py:22 src/handcue/ui/window.py:178
+msgid "Faces"
+msgstr "Caras"
+
+#: src/handcue/catalog.py:26
+msgid "Fist"
+msgstr "Puño"
+
+#: src/handcue/catalog.py:26
+msgid "Closed hand"
+msgstr "Mano cerrada"
+
+#: src/handcue/catalog.py:27
+msgid "Open hand"
+msgstr "Mano abierta"
+
+#: src/handcue/catalog.py:27
+msgid "All five fingers extended"
+msgstr "Los cinco dedos extendidos"
+
+#: src/handcue/catalog.py:28
+msgid "Point up"
+msgstr "Señalar arriba"
+
+#: src/handcue/catalog.py:28
+msgid "Only the index finger raised"
+msgstr "Solo el índice levantado"
+
+#: src/handcue/catalog.py:29
+msgid "Thumb up"
+msgstr "Pulgar arriba"
+
+#: src/handcue/catalog.py:29
+msgid "Closed fist with the thumb up"
+msgstr "Puño cerrado con el pulgar hacia arriba"
+
+#: src/handcue/catalog.py:30
+msgid "Thumb down"
+msgstr "Pulgar abajo"
+
+#: src/handcue/catalog.py:30
+msgid "Closed fist with the thumb down"
+msgstr "Puño cerrado con el pulgar hacia abajo"
+
+#: src/handcue/catalog.py:31
+msgid "Victory"
+msgstr "Victoria"
+
+#: src/handcue/catalog.py:31
+msgid "Index and middle fingers in a V"
+msgstr "Índice y corazón en V"
+
+#: src/handcue/catalog.py:32
+msgid "I love you"
+msgstr "Te quiero"
+
+#: src/handcue/catalog.py:32
+msgid "Thumb, index and little finger"
+msgstr "Pulgar, índice y meñique"
+
+#: src/handcue/catalog.py:33
+msgid "Rock"
+msgstr "Rock"
+
+#: src/handcue/catalog.py:33
+msgid "Index and little finger, thumb tucked in"
+msgstr "Índice y meñique (pulgar recogido)"
+
+#: src/handcue/catalog.py:34
+msgid "Call me"
+msgstr "Llámame"
+
+#: src/handcue/catalog.py:34
+msgid "Thumb and little finger"
+msgstr "Pulgar y meñique"
+
+#: src/handcue/catalog.py:35
+msgid "OK"
+msgstr "OK"
+
+#: src/handcue/catalog.py:35
+msgid "Thumb and index in a circle, other fingers extended"
+msgstr "Círculo con pulgar e índice, resto extendidos"
+
+#: src/handcue/catalog.py:36
+msgid "Pinch"
+msgstr "Pellizco"
+
+#: src/handcue/catalog.py:36
+msgid "Thumb and index fingertips together"
+msgstr "Puntas de pulgar e índice juntas"
+
+#: src/handcue/catalog.py:37
+msgid "Three fingers"
+msgstr "Tres dedos"
+
+#: src/handcue/catalog.py:37
+msgid "Index, middle and ring fingers"
+msgstr "Índice, corazón y anular"
+
+#: src/handcue/catalog.py:38
+msgid "Swipe left"
+msgstr "Deslizar a la izquierda"
+
+#: src/handcue/catalog.py:38 src/handcue/catalog.py:39
+#: src/handcue/catalog.py:40 src/handcue/catalog.py:41
+msgid "Open hand moving quickly"
+msgstr "Mano abierta moviéndose rápido"
+
+#: src/handcue/catalog.py:39
+msgid "Swipe right"
+msgstr "Deslizar a la derecha"
+
+#: src/handcue/catalog.py:40
+msgid "Swipe up"
+msgstr "Deslizar hacia arriba"
+
+#: src/handcue/catalog.py:41
+msgid "Swipe down"
+msgstr "Deslizar hacia abajo"
+
+#: src/handcue/catalog.py:43
+msgid "A clear, wide smile"
+msgstr "Sonríe enseñando bien la sonrisa"
+
+#: src/handcue/catalog.py:43 src/handcue/ui/preferences.py:15
+msgid "Smile"
+msgstr "Sonrisa"
+
+#: src/handcue/catalog.py:44
+msgid "Open your mouth wide"
+msgstr "Abre mucho la boca"
+
+#: src/handcue/catalog.py:44 src/handcue/ui/preferences.py:16
+msgid "Mouth open"
+msgstr "Boca abierta"
+
+#: src/handcue/catalog.py:45
+msgid "Left wink"
+msgstr "Guiño ojo izquierdo"
+
+#: src/handcue/catalog.py:45
+msgid "Close only your left eye"
+msgstr "Cierra solo el ojo izquierdo"
+
+#: src/handcue/catalog.py:46
+msgid "Right wink"
+msgstr "Guiño ojo derecho"
+
+#: src/handcue/catalog.py:46
+msgid "Close only your right eye"
+msgstr "Cierra solo el ojo derecho"
+
+#: src/handcue/catalog.py:47
+msgid "Eyes closed"
+msgstr "Ojos cerrados"
+
+#: src/handcue/catalog.py:47
+msgid "Both eyes closed (use with 1 s or more)"
+msgstr "Ambos ojos cerrados (úsalo con 1 s o más)"
+
+#: src/handcue/catalog.py:48
+msgid "Eyebrows up"
+msgstr "Cejas arriba"
+
+#: src/handcue/catalog.py:48
+msgid "Raise your eyebrows"
+msgstr "Levanta las cejas"
+
+#: src/handcue/catalog.py:49
+msgid "Pucker your lips"
+msgstr "Labios en forma de beso"
+
+#: src/handcue/catalog.py:49 src/handcue/ui/preferences.py:17
+msgid "Kiss"
+msgstr "Beso"
+
+#: src/handcue/catalog.py:50
+msgid "Puff cheeks"
+msgstr "Inflar mejillas"
+
+#: src/handcue/catalog.py:50
+msgid "Puff out your cheeks"
+msgstr "Hincha los mofletes"
+
+#: src/handcue/catalog.py:51
+msgid "Turn head left"
+msgstr "Girar la cabeza a la izquierda"
+
+#: src/handcue/catalog.py:51
+msgid "Look to your left"
+msgstr "Mira hacia tu izquierda"
+
+#: src/handcue/catalog.py:52
+msgid "Turn head right"
+msgstr "Girar la cabeza a la derecha"
+
+#: src/handcue/catalog.py:52
+msgid "Look to your right"
+msgstr "Mira hacia tu derecha"
+
+#: src/handcue/catalog.py:53
+msgid "Look up"
+msgstr "Mirar arriba"
+
+#: src/handcue/catalog.py:53
+msgid "Tilt your head up"
+msgstr "Levanta la cabeza"
+
+#: src/handcue/catalog.py:54
+msgid "Look down"
+msgstr "Mirar abajo"
+
+#: src/handcue/catalog.py:54
+msgid "Tilt your head down"
+msgstr "Baja la cabeza"
+
+#: src/handcue/catalog.py:56
+msgid "Someone there"
+msgstr "Hay alguien"
+
+#: src/handcue/catalog.py:56
+msgid "At least one person in view"
+msgstr "Al menos una persona a la vista"
+
+#: src/handcue/catalog.py:57
+msgid "Several people"
+msgstr "Varias personas"
+
+#: src/handcue/catalog.py:57
+msgid "Two or more people in view"
+msgstr "Dos o más personas a la vista"
+
+#: src/handcue/catalog.py:58
+msgid "Someone arrives"
+msgstr "Alguien aparece"
+
+#: src/handcue/catalog.py:58
+msgid "Nobody in view, then someone"
+msgstr "Se pasa de nadie a alguien"
+
+#: src/handcue/catalog.py:59
+msgid "Everyone left"
+msgstr "Ya no hay nadie"
+
+#: src/handcue/catalog.py:60
+msgid "Someone in view, then nobody for 2 seconds"
+msgstr "Se pasa de alguien a nadie (2 s sin ver a nadie)"
+
+#: src/handcue/catalog.py:61
+msgid "Arms up"
+msgstr "Brazos arriba"
+
+#: src/handcue/catalog.py:61
+msgid "Both wrists above the head"
+msgstr "Ambas muñecas por encima de la cabeza"
+
+#: src/handcue/catalog.py:62
+msgid "Hand raised"
+msgstr "Mano levantada"
+
+#: src/handcue/catalog.py:62
+msgid "One wrist above the head"
+msgstr "Una muñeca por encima de la cabeza"
+
+#: src/handcue/catalog.py:63
+msgid "Arms in an X"
+msgstr "Brazos en X"
+
+#: src/handcue/catalog.py:63
+msgid "Wrists crossed in front of the chest"
+msgstr "Muñecas cruzadas delante del pecho"
+
+#: src/handcue/catalog.py:64
+msgid "T-pose"
+msgstr "Pose en T"
+
+#: src/handcue/catalog.py:64
+msgid "Arms stretched out horizontally"
+msgstr "Brazos estirados en horizontal"
+
+#: src/handcue/catalog.py:66
+msgid "Someone known"
+msgstr "Alguien conocido"
+
+#: src/handcue/catalog.py:66
+msgid "Any registered person"
+msgstr "Cualquier persona registrada"
+
+#: src/handcue/catalog.py:67
+msgid "Someone unknown"
+msgstr "Alguien desconocido"
+
+#: src/handcue/catalog.py:67
+msgid "A face that is not registered"
+msgstr "Una cara que no está registrada"
+
+#: src/handcue/catalog.py:74
+msgid "Removed item"
+msgstr "Elemento eliminado"
+
+#: src/handcue/catalog.py:74
+msgid "This group or person no longer exists"
+msgstr "El grupo o la persona ya no existe"
+
+#: src/handcue/catalog.py:82
+#, python-brace-format
+msgid "Someone from {group}"
+msgstr "Alguien de {group}"
+
+#: src/handcue/catalog.py:83
+#, python-brace-format
+msgid "Any person in the group {group}"
+msgstr "Cualquier persona del grupo {group}"
+
+#: src/handcue/catalog.py:86
+#, python-brace-format
+msgid "When {name} shows up"
+msgstr "Cuando aparece {name}"
+
+#: src/handcue/catalog.py:94
+msgid "Either hand"
+msgstr "Cualquiera"
+
+#: src/handcue/catalog.py:94
+msgid "Both at once"
+msgstr "Las dos a la vez"
+
+#: src/handcue/catalog.py:94 src/handcue/ui/preferences.py:64
+msgid "Left"
+msgstr "Izquierda"
+
+#: src/handcue/catalog.py:94 src/handcue/ui/preferences.py:64
+msgid "Right"
+msgstr "Derecha"
+
+#: src/handcue/catalog.py:104
+msgid "Media"
+msgstr "Multimedia"
+
+#: src/handcue/catalog.py:104
+msgid "Controls whatever player is playing, and the volume."
+msgstr "Controla el reproductor que esté sonando y el volumen."
+
+#: src/handcue/catalog.py:106
+msgid "Open app"
+msgstr "Abrir aplicación"
+
+#: src/handcue/catalog.py:106
+msgid "Program to start, e.g. firefox, dolphin, konsole, code."
+msgstr "Programa que se abrirá, p. ej. firefox, dolphin, konsole, code."
+
+#: src/handcue/catalog.py:108
+msgid "Open website"
+msgstr "Abrir web"
+
+#: src/handcue/catalog.py:108
+msgid "Address to open in the browser."
+msgstr "Dirección que se abrirá en el navegador."
+
+#: src/handcue/catalog.py:110
+msgid "Type text"
+msgstr "Escribir texto"
+
+#: src/handcue/catalog.py:110
+msgid "Text typed wherever the cursor is. Use \\n for Enter."
+msgstr "Texto que se tecleará donde esté el cursor. Usa \\n para Intro."
+
+#: src/handcue/catalog.py:111
+msgid "Keyboard shortcut"
+msgstr "Atajo de teclado"
+
+#: src/handcue/catalog.py:112
+msgid "Keys joined with +, e.g. ctrl+c, alt+tab, ctrl+alt+t, super, f5, space, enter, left, right."
+msgstr "Teclas unidas por +, p. ej. ctrl+c, alt+tab, ctrl+alt+t, super, f5, space, enter, left, right."
+
+#: src/handcue/catalog.py:116
+msgid "Run command"
+msgstr "Ejecutar comando"
+
+#: src/handcue/catalog.py:117
+msgid "Shell command (bash). It runs with your permissions every time the gesture is made in front of the camera: only use commands you understand and, if other people use this computer, turn on “Only obey registered people”."
+msgstr "Comando de terminal (bash). Se ejecuta con tus permisos cada vez que se hace el gesto delante de la cámara: úsalo solo con comandos que entiendas y, si otras personas usan este ordenador, activa «Solo obedecer a personas registradas»."
+
+#: src/handcue/catalog.py:120
+msgid "Sound effect"
+msgstr "Efecto de sonido"
+
+#: src/handcue/catalog.py:120
+msgid "A synthesized sound."
+msgstr "Un sonido sintetizado."
+
+#: src/handcue/catalog.py:122
+msgid "Notification"
+msgstr "Notificación"
+
+#: src/handcue/catalog.py:122
+msgid "Text of the desktop notification."
+msgstr "Texto de la notificación del escritorio."
+
+#: src/handcue/catalog.py:123
+msgid "Countdown in seconds before the photo is taken."
+msgstr "Segundos de cuenta atrás antes de hacer la foto."
+
+#: src/handcue/catalog.py:123 src/handcue/ui/gestures_panel.py:73
+#: src/handcue/ui/window.py:160
+msgid "Take photo"
+msgstr "Hacer foto"
+
+#: src/handcue/catalog.py:124
+msgid "Saved next to the photos."
+msgstr "Se guarda junto a las fotos."
+
+#: src/handcue/catalog.py:124 src/handcue/catalog.py:170
+msgid "Screenshot"
+msgstr "Captura de pantalla"
+
+#: src/handcue/catalog.py:125
+msgid "Locks the session."
+msgstr "Bloquea la sesión."
+
+#: src/handcue/catalog.py:125 src/handcue/catalog.py:172
+msgid "Lock screen"
+msgstr "Bloquear pantalla"
+
+#: src/handcue/catalog.py:126 src/handcue/catalog.py:164
+msgid "Virtual mouse"
+msgstr "Ratón virtual"
+
+#: src/handcue/catalog.py:127
+msgid "Move the pointer with your hand. Pinch index and thumb to click, middle finger and thumb to right-click."
+msgstr "Mueve el puntero con la mano. Pellizco índice-pulgar para hacer clic y corazón-pulgar para el clic derecho."
+
+#: src/handcue/catalog.py:129
+msgid "Pause gestures"
+msgstr "Pausar gestos"
+
+#: src/handcue/catalog.py:129
+msgid "While paused, only the pause gesture keeps working."
+msgstr "Mientras está en pausa solo funciona el gesto de pausa."
+
+#: src/handcue/catalog.py:130
+msgid "Visual effects"
+msgstr "Efectos visuales"
+
+#: src/handcue/catalog.py:130
+msgid "Effects on your hands in the preview (fire, laser...)."
+msgstr "Efectos sobre las manos en la vista previa (fuego, láser...)."
+
+#: src/handcue/catalog.py:147 src/handcue/ui/gestures_panel.py:25
+msgid "Play / pause"
+msgstr "Play / pausa"
+
+#: src/handcue/catalog.py:148 src/handcue/ui/gestures_panel.py:25
+msgid "Next track"
+msgstr "Siguiente canción"
+
+#: src/handcue/catalog.py:149 src/handcue/ui/gestures_panel.py:25
+msgid "Previous track"
+msgstr "Canción anterior"
+
+#: src/handcue/catalog.py:151
+msgid "Volume up (hold)"
+msgstr "Subir volumen (mantén)"
+
+#: src/handcue/catalog.py:153
+msgid "Volume down (hold)"
+msgstr "Bajar volumen (mantén)"
+
+#: src/handcue/catalog.py:154
+msgid "Selfie with countdown"
+msgstr "Selfie con cuenta atrás"
+
+#: src/handcue/catalog.py:155
+msgid "Coin"
+msgstr "Moneda"
+
+#: src/handcue/catalog.py:156
+msgid "Power chord"
+msgstr "Power chord"
+
+#: src/handcue/catalog.py:157
+msgid "Toggle effects"
+msgstr "Activar efectos"
+
+#: src/handcue/catalog.py:158
+msgid "Pause / resume"
+msgstr "Pausar / reanudar"
+
+#: src/handcue/catalog.py:159
+msgid "Nice smile!"
+msgstr "¡Qué sonrisa más bonita!"
+
+#: src/handcue/catalog.py:159
+msgid "Compliment"
+msgstr "Cumplido"
+
+#: src/handcue/catalog.py:160
+msgid "Roar"
+msgstr "Rugido"
+
+#: src/handcue/catalog.py:161
+msgid "Prank"
+msgstr "Broma"
+
+#: src/handcue/catalog.py:162
+msgid "Victory!"
+msgstr "¡Victoria!"
+
+#: src/handcue/catalog.py:165
+msgid "I love you!"
+msgstr "¡Te quiero!"
+
+#: src/handcue/catalog.py:166
+msgid "Type a message"
+msgstr "Escribir un mensaje"
+
+#: src/handcue/catalog.py:168
+msgid "Open YouTube"
+msgstr "Abrir YouTube"
+
+#: src/handcue/catalog.py:169
+msgid "Switch window"
+msgstr "Cambiar de ventana"
+
+#: src/handcue/catalog.py:173
+msgid "Lock when I leave"
+msgstr "Bloquear al irme"
+
+#: src/handcue/catalog.py:174
+msgid "Welcome back!"
+msgstr "¡Hola de nuevo!"
+
+#: src/handcue/catalog.py:175
+msgid "Greeting"
+msgstr "Saludo"
+
+#: src/handcue/catalog.py:177
+msgid "Open terminal"
+msgstr "Abrir terminal"
+
+#: src/handcue/config.py:119 src/handcue/ui/gestures_panel.py:220
+#: src/handcue/ui/window.py:177
+msgid "Gestures"
+msgstr "Gestos"
+
+#: src/handcue/desktop.py:85 src/handcue/ui/gestures_panel.py:187
+msgid "Gesture control"
+msgstr "Control por gestos"
+
+#: src/handcue/desktop.py:86
+msgid "Control your computer with gestures and adjust your webcam"
+msgstr "Controla el ordenador con gestos y ajusta tu webcam"
+
+#: src/handcue/desktop_input.py:55
+#, python-brace-format
+msgid "Unknown key: '{key}'"
+msgstr "Tecla desconocida: «{key}»"
+
+#: src/handcue/desktop_input.py:57
+msgid "Empty shortcut"
+msgstr "Atajo vacío"
+
+#: src/handcue/desktop_input.py:92
+msgid "Permission denied or cancelled"
+msgstr "Permiso denegado o cancelado"
+
+#: src/handcue/desktop_input.py:114
+msgid "Virtual keyboard and mouse connected"
+msgstr "Teclado y ratón virtuales conectados"
+
+#: src/handcue/desktop_input.py:117
+#, python-brace-format
+msgid "Could not connect the virtual keyboard and mouse: {error}"
+msgstr "No se pudo conectar el teclado y ratón virtuales: {error}"
+
+#: src/handcue/desktop_input.py:133
+msgid "The virtual keyboard and mouse are not connected (see Preferences)"
+msgstr "El teclado y ratón virtuales no están conectados (ver Preferencias)"
+
+#: src/handcue/engine.py:155
+msgid "Gestures resumed"
+msgstr "Gestos reanudados"
+
+#: src/handcue/engine.py:155 src/handcue/engine.py:634
+#: src/handcue/ui/window.py:458
+msgid "Gestures paused"
+msgstr "Gestos en pausa"
+
+#: src/handcue/engine.py:162
+msgid "Virtual mouse off"
+msgstr "Ratón virtual desactivado"
+
+#: src/handcue/engine.py:165 src/handcue/engine.py:172
+msgid "Virtual mouse on"
+msgstr "Ratón virtual activado"
+
+#: src/handcue/engine.py:167
+msgid "Connecting the virtual mouse (accept the desktop permission)…"
+msgstr "Conectando el ratón virtual (acepta el permiso del escritorio)…"
+
+#: src/handcue/engine.py:199
+#, python-brace-format
+msgid "Cannot open camera /dev/video{index}. Is another program using it?"
+msgstr "No se puede abrir la cámara /dev/video{index}. ¿La está usando otro programa?"
+
+#: src/handcue/engine.py:213
+#, python-brace-format
+msgid "Could not load the models: {error}"
+msgstr "No se pudieron cargar los modelos: {error}"
+
+#: src/handcue/engine.py:218
+msgid "The camera stopped sending images (unplugged?)"
+msgstr "La cámara ha dejado de enviar imágenes (¿desconectada?)"
+
+#: src/handcue/engine.py:340
+#, python-brace-format
+msgid "Could not load the background effect: {error}"
+msgstr "No se pudo cargar el efecto de fondo: {error}"
+
+#: src/handcue/engine.py:388
+#, python-brace-format
+msgid "Could not start face recognition: {error}"
+msgstr "No se pudo iniciar el reconocimiento facial: {error}"
+
+#: src/handcue/engine.py:415
+msgid "the file could not be written"
+msgstr "no se pudo escribir el archivo"
+
+#: src/handcue/engine.py:418
+#, python-brace-format
+msgid "Photo saved to {path}"
+msgstr "Foto guardada en {path}"
+
+#: src/handcue/engine.py:420
+#, python-brace-format
+msgid "Could not save the photo: {error}"
+msgstr "No se pudo guardar la foto: {error}"
+
+#: src/handcue/engine.py:462
+#, python-brace-format
+msgid "Auto framing stopped: {error}"
+msgstr "Encuadre automático detenido: {error}"
+
+#: src/handcue/engine.py:509
+#, python-brace-format
+msgid "Virtual mouse turned off: {error}"
+msgstr "Ratón virtual desactivado: {error}"
+
+#: src/handcue/engine.py:641
+msgid "Camera covered · detection paused"
+msgstr "Cámara tapada · detección en pausa"
+
+#: src/handcue/engine.py:661 src/handcue/recognition.py:128
+msgid "Unknown"
+msgstr "Desconocido"
+
+#: src/handcue/faces.py:56
+msgid "the desktop keyring is locked"
+msgstr "el llavero del escritorio está bloqueado"
+
+#: src/handcue/faces.py:69
+#, python-brace-format
+msgid "the desktop keyring is not available ({error})"
+msgstr "el llavero del escritorio no está disponible ({error})"
+
+#: src/handcue/faces.py:136
+msgid "Family"
+msgstr "Familia"
+
+#: src/handcue/faces.py:137
+msgid "Work"
+msgstr "Trabajo"
+
+#: src/handcue/faces.py:147
+msgid "the key they were encrypted with is missing"
+msgstr "no se encuentra la clave con la que se cifraron"
+
+#: src/handcue/faces.py:153
+#, python-brace-format
+msgid "the face data cannot be decrypted ({error})"
+msgstr "los datos de caras no se pueden descifrar ({error})"
+
+#: src/handcue/faces.py:169
+msgid "Changes were not saved: there are saved faces that could not be read and they would be overwritten. Unlock the keyring and restart the app."
+msgstr "No se han guardado los cambios: hay caras guardadas que no se han podido leer y se sobrescribirían. Desbloquea el llavero y vuelve a abrir la app."
+
+#: src/handcue/models.py:79
+#, python-brace-format
+msgid "Model {name} does not match the original, downloading it again"
+msgstr "El modelo {name} no coincide con el original; se vuelve a descargar"
+
+#: src/handcue/models.py:88
+#, python-brace-format
+msgid "Downloading model {name}…"
+msgstr "Descargando el modelo {name}…"
+
+#: src/handcue/sounds.py:123
+#, python-brace-format
+msgid "Unknown sound: {name}"
+msgstr "Sonido desconocido: {name}"
+
+#: src/handcue/sounds.py:129
+msgid "No audio player found (pw-play, paplay or aplay)"
+msgstr "No hay reproductor de audio (pw-play, paplay o aplay)"
+
+#: src/handcue/ui/camera_panel.py:12
+msgid "Custom"
+msgstr "Personalizado"
+
+#: src/handcue/ui/camera_panel.py:20 src/handcue/ui/faces_panel.py:241
+#: src/handcue/ui/faces_panel.py:251 src/handcue/ui/gestures_panel.py:268
+#: src/handcue/ui/virtual_camera_panel.py:111
+#: src/handcue/ui/virtual_camera_panel.py:132
+msgid "Off"
+msgstr "Desactivado"
+
+#: src/handcue/ui/camera_panel.py:21
+msgid "Incandescent bulb"
+msgstr "Bombilla incandescente"
+
+#: src/handcue/ui/camera_panel.py:21
+msgid "Fluorescent"
+msgstr "Fluorescente"
+
+#: src/handcue/ui/camera_panel.py:21
+msgid "Daylight"
+msgstr "Luz de día"
+
+#: src/handcue/ui/camera_panel.py:22
+msgid "Cloudy"
+msgstr "Nublado"
+
+#: src/handcue/ui/camera_panel.py:66 src/handcue/ui/window.py:176
+msgid "Camera"
+msgstr "Cámara"
+
+#: src/handcue/ui/camera_panel.py:67
+msgid "No camera connected."
+msgstr "No hay ninguna cámara conectada."
+
+#: src/handcue/ui/camera_panel.py:89
+msgid "About these settings"
+msgstr "Acerca de estos ajustes"
+
+#: src/handcue/ui/camera_panel.py:90
+msgid "They are stored in the camera itself, so they also apply in OBS, Meet or Discord. The camera forgets them when unplugged; this app restores them when it starts."
+msgstr "Se guardan en la propia cámara, así que también se aplican en OBS, Meet o Discord. La cámara los olvida al desconectarla; esta app los restaura al abrirse."
+
+#: src/handcue/ui/camera_panel.py:98
+msgid "Profile options"
+msgstr "Opciones de perfil"
+
+#: src/handcue/ui/camera_panel.py:99
+msgid "Save as new profile…"
+msgstr "Guardar como perfil nuevo…"
+
+#: src/handcue/ui/camera_panel.py:100
+msgid "Delete this profile"
+msgstr "Borrar este perfil"
+
+#: src/handcue/ui/camera_panel.py:102
+msgid "Restore factory defaults"
+msgstr "Restablecer valores de fábrica"
+
+#: src/handcue/ui/camera_panel.py:104
+msgid "Profile"
+msgstr "Perfil"
+
+#: src/handcue/ui/camera_panel.py:125
+msgid "Exposure"
+msgstr "Exposición"
+
+#: src/handcue/ui/camera_panel.py:127
+msgid "Automatic"
+msgstr "Automática"
+
+#: src/handcue/ui/camera_panel.py:129
+msgid "Shutter"
+msgstr "Obturador"
+
+#: src/handcue/ui/camera_panel.py:130
+msgid "ISO (gain)"
+msgstr "ISO (ganancia)"
+
+#: src/handcue/ui/camera_panel.py:131
+msgid "Compensation"
+msgstr "Compensación"
+
+#: src/handcue/ui/camera_panel.py:133
+msgid "Keep frame rate"
+msgstr "Priorizar fotogramas"
+
+#: src/handcue/ui/camera_panel.py:133
+msgid "Holds the FPS even in low light"
+msgstr "Mantiene los FPS aunque haya poca luz"
+
+#: src/handcue/ui/camera_panel.py:136
+msgid "Backlight compensation"
+msgstr "Compensar contraluz"
+
+#: src/handcue/ui/camera_panel.py:137
+msgid "Brightens your face when there is a window behind you"
+msgstr "Aclara la cara si tienes una ventana detrás"
+
+#: src/handcue/ui/camera_panel.py:142 src/handcue/ui/virtual_camera_panel.py:13
+msgid "Color"
+msgstr "Color"
+
+#: src/handcue/ui/camera_panel.py:143
+msgid "Automatic white balance"
+msgstr "Balance de blancos automático"
+
+#: src/handcue/ui/camera_panel.py:145
+msgid "Temperature"
+msgstr "Temperatura"
+
+#: src/handcue/ui/camera_panel.py:147
+msgid "Presets"
+msgstr "Valores predefinidos"
+
+#: src/handcue/ui/camera_panel.py:153
+msgid "Saturation"
+msgstr "Saturación"
+
+#: src/handcue/ui/camera_panel.py:154
+msgid "Hue"
+msgstr "Tono"
+
+#: src/handcue/ui/camera_panel.py:158 src/handcue/ui/virtual_camera_panel.py:13
+msgid "Image"
+msgstr "Imagen"
+
+#: src/handcue/ui/camera_panel.py:159
+msgid "Contrast"
+msgstr "Contraste"
+
+#: src/handcue/ui/camera_panel.py:160
+msgid "Sharpness"
+msgstr "Nitidez"
+
+#: src/handcue/ui/camera_panel.py:161
+msgid "Gamma"
+msgstr "Gamma"
+
+#: src/handcue/ui/camera_panel.py:166
+msgid "Zoom and framing"
+msgstr "Zoom y encuadre"
+
+#: src/handcue/ui/camera_panel.py:168
+msgid "Face tracking"
+msgstr "Seguimiento facial"
+
+#: src/handcue/ui/camera_panel.py:168
+msgid "Keeps your face framed using digital zoom"
+msgstr "Mantiene tu cara encuadrada con el zoom digital"
+
+#: src/handcue/ui/camera_panel.py:171
+msgid "Zoom"
+msgstr "Zoom"
+
+#: src/handcue/ui/camera_panel.py:178
+msgid "Center"
+msgstr "Centrar"
+
+#: src/handcue/ui/camera_panel.py:180
+msgid "Reset"
+msgstr "Restablecer"
+
+#: src/handcue/ui/camera_panel.py:186
+msgid "Focus"
+msgstr "Enfoque"
+
+#: src/handcue/ui/camera_panel.py:187
+msgid "Autofocus"
+msgstr "Autoenfoque"
+
+#: src/handcue/ui/camera_panel.py:188
+msgid "Distance"
+msgstr "Distancia"
+
+#: src/handcue/ui/camera_panel.py:193
+msgid "Anti-flicker"
+msgstr "Antiparpadeo"
+
+#: src/handcue/ui/camera_panel.py:198
+msgid "Match your mains frequency: 50 Hz in Europe, 60 Hz in the Americas."
+msgstr "Usa la frecuencia de tu red eléctrica: 50 Hz en Europa, 60 Hz en América."
+
+#: src/handcue/ui/camera_panel.py:202
+msgid "Format"
+msgstr "Formato"
+
+#: src/handcue/ui/camera_panel.py:212 src/handcue/ui/virtual_camera_panel.py:80
+msgid "Resolution"
+msgstr "Resolución"
+
+#: src/handcue/ui/camera_panel.py:217
+msgid "Frame rate"
+msgstr "Fotogramas"
+
+#: src/handcue/ui/camera_panel.py:218
+msgid "Higher resolution and frame rate use more CPU for gesture recognition."
+msgstr "Más resolución y FPS aumentan el uso de CPU al reconocer gestos."
+
+#: src/handcue/ui/camera_panel.py:223
+msgid "Advanced"
+msgstr "Avanzado"
+
+#: src/handcue/ui/camera_panel.py:224
+msgid "Privacy mode"
+msgstr "Modo privacidad"
+
+#: src/handcue/ui/camera_panel.py:224
+msgid "Cuts the camera image"
+msgstr "Corta la imagen de la cámara"
+
+#: src/handcue/ui/camera_panel.py:342
+#, python-brace-format
+msgid "The camera rejected the setting ({error})"
+msgstr "La cámara rechazó el ajuste ({error})"
+
+#: src/handcue/ui/camera_panel.py:379
+#, python-brace-format
+msgid "Could not move the framing ({error})"
+msgstr "No se pudo mover el encuadre ({error})"
+
+#: src/handcue/ui/camera_panel.py:406
+#, python-brace-format
+msgid "Profile “{name}” applied with warnings"
+msgstr "Perfil «{name}» aplicado con avisos"
+
+#: src/handcue/ui/camera_panel.py:407
+#, python-brace-format
+msgid "Profile “{name}” applied"
+msgstr "Perfil «{name}» aplicado"
+
+#: src/handcue/ui/camera_panel.py:413
+msgid "Save profile"
+msgstr "Guardar perfil"
+
+#: src/handcue/ui/camera_panel.py:413
+msgid "Profile name"
+msgstr "Nombre del perfil"
+
+#: src/handcue/ui/camera_panel.py:418
+msgid "That name is reserved"
+msgstr "Ese nombre está reservado"
+
+#: src/handcue/ui/camera_panel.py:431
+msgid "Only profiles you saved can be deleted"
+msgstr "Solo se pueden borrar los perfiles guardados por ti"
+
+#: src/handcue/ui/faces_panel.py:102
+msgid "Face recognition"
+msgstr "Reconocimiento facial"
+
+#: src/handcue/ui/faces_panel.py:104
+msgid "Recognize people"
+msgstr "Reconocer personas"
+
+#: src/handcue/ui/faces_panel.py:107
+msgid "Strictness"
+msgstr "Exigencia"
+
+#: src/handcue/ui/faces_panel.py:109
+msgid "Minimum similarity to accept a face. Higher means fewer mix-ups between people, but more “unknown” in poor light."
+msgstr "Similitud mínima para dar por buena una cara. Más alto: menos confusiones entre personas, pero más «desconocidos» con mala luz."
+
+#: src/handcue/ui/faces_panel.py:112
+msgid "Normal"
+msgstr "Normal"
+
+#: src/handcue/ui/faces_panel.py:112
+msgid "Safe"
+msgstr "Segura"
+
+#: src/handcue/ui/faces_panel.py:112 src/handcue/ui/gestures_panel.py:391
+msgid "Instant"
+msgstr "Al instante"
+
+#: src/handcue/ui/faces_panel.py:114
+msgid "Confirmation"
+msgstr "Confirmación"
+
+#: src/handcue/ui/faces_panel.py:116
+msgid "How many times a face must be seen before deciding who it is. “Instant” reacts in a tenth of a second, but a bad frame can fool it."
+msgstr "Cuántas veces debe verse una cara antes de decidir quién es. «Al instante» reacciona en una décima de segundo, pero una imagen mala puede confundirle."
+
+#: src/handcue/ui/faces_panel.py:119
+msgid "Only obey registered people"
+msgstr "Solo obedecer a personas registradas"
+
+#: src/handcue/ui/faces_panel.py:120
+msgid "Gestures only work while someone registered is in front of the camera. Without this, anyone in front of it can trigger your actions (commands, typing...). Needs recognition turned on."
+msgstr "Los gestos solo funcionan si hay alguien registrado delante de la cámara. Sin esto, cualquiera que se ponga delante puede lanzar tus acciones (comandos, escribir texto...). Necesita el reconocimiento activado."
+
+#: src/handcue/ui/faces_panel.py:126
+msgid "Add person"
+msgstr "Añadir persona"
+
+#: src/handcue/ui/faces_panel.py:128
+msgid "People"
+msgstr "Personas"
+
+#: src/handcue/ui/faces_panel.py:131
+msgid "The saved faces could not be read (is the desktop keyring locked?). To avoid losing them, no changes will be saved until they can be read: unlock the keyring and restart the app."
+msgstr "No se han podido leer las caras guardadas (¿llavero del escritorio bloqueado?). Para no perderlas, no se guardará ningún cambio hasta que se puedan leer: desbloquea el llavero y vuelve a abrir la app."
+
+#: src/handcue/ui/faces_panel.py:141
+msgid "Add group"
+msgstr "Añadir grupo"
+
+#: src/handcue/ui/faces_panel.py:144
+msgid "Groups"
+msgstr "Grupos"
+
+#: src/handcue/ui/faces_panel.py:151
+msgid "Add action"
+msgstr "Añadir acción"
+
+#: src/handcue/ui/faces_panel.py:153
+msgid "Actions"
+msgstr "Acciones"
+
+#: src/handcue/ui/faces_panel.py:160
+msgid "Privacy"
+msgstr "Privacidad"
+
+#: src/handcue/ui/faces_panel.py:162 src/handcue/ui/faces_panel.py:305
+msgid "Delete all faces"
+msgstr "Borrar todas las caras"
+
+#: src/handcue/ui/faces_panel.py:184
+#, python-brace-format
+msgid "{n} sample"
+msgid_plural "{n} samples"
+msgstr[0] "{n} muestra"
+msgstr[1] "{n} muestras"
+
+#: src/handcue/ui/faces_panel.py:185 src/handcue/ui/faces_panel.py:347
+msgid "No group"
+msgstr "Sin grupo"
+
+#: src/handcue/ui/faces_panel.py:190
+msgid "Few samples: add more so they are recognized reliably"
+msgstr "Pocas muestras: añade más para que la reconozca bien"
+
+#: src/handcue/ui/faces_panel.py:195
+msgid "Nobody registered yet. Add a person with their name and a few pictures of their face."
+msgstr "Aún no hay nadie registrado. Añade a una persona con su nombre y unas cuantas fotos de su cara."
+
+#: src/handcue/ui/faces_panel.py:205 src/handcue/ui/gestures_panel.py:305
+#, python-brace-format
+msgid "{n} person"
+msgid_plural "{n} people"
+msgstr[0] "{n} persona"
+msgstr[1] "{n} personas"
+
+#: src/handcue/ui/faces_panel.py:206
+msgid "Group options"
+msgstr "Opciones del grupo"
+
+#: src/handcue/ui/faces_panel.py:208
+msgid "Rename…"
+msgstr "Cambiar nombre…"
+
+#: src/handcue/ui/faces_panel.py:209
+msgid "Change color"
+msgstr "Cambiar color"
+
+#: src/handcue/ui/faces_panel.py:211 src/handcue/ui/faces_panel.py:299
+msgid "Delete group"
+msgstr "Eliminar grupo"
+
+#: src/handcue/ui/faces_panel.py:218
+msgid "the key is in the desktop keyring"
+msgstr "la clave está en el llavero del escritorio"
+
+#: src/handcue/ui/faces_panel.py:219
+msgid "the key is in a file only you can read"
+msgstr "la clave está en un archivo que solo tú puedes leer"
+
+#: src/handcue/ui/faces_panel.py:220
+msgid "the key will be stored in the desktop keyring"
+msgstr "la clave se guardará en el llavero del escritorio"
+
+#: src/handcue/ui/faces_panel.py:222
+#, python-brace-format
+msgid "Faces are stored encrypted (AES-256) on this computer only, in {path}; {where}. Only register other people with their permission."
+msgstr "Las caras se guardan cifradas (AES-256) solo en este equipo, en {path}; {where}. Registra a otras personas solo con su permiso."
+
+#: src/handcue/ui/faces_panel.py:234
+msgid "Choose what happens when someone shows up: for example, a notification for an unknown face."
+msgstr "Elige qué pasa cuando aparece alguien: por ejemplo, una notificación si es un desconocido."
+
+#: src/handcue/ui/faces_panel.py:243 src/handcue/ui/window.py:482
+msgid "Camera covered"
+msgstr "Cámara tapada"
+
+#: src/handcue/ui/faces_panel.py:246
+#, python-brace-format
+msgid "In view: {names}"
+msgstr "A la vista: {names}"
+
+#: src/handcue/ui/faces_panel.py:247
+msgid "Nobody in view"
+msgstr "No hay nadie a la vista"
+
+#: src/handcue/ui/faces_panel.py:251
+msgid "On"
+msgstr "Activo"
+
+#: src/handcue/ui/faces_panel.py:270
+msgid "Changes not saved"
+msgstr "No se han guardado los cambios"
+
+#: src/handcue/ui/faces_panel.py:277
+msgid "New group"
+msgstr "Nuevo grupo"
+
+#: src/handcue/ui/faces_panel.py:277 src/handcue/ui/faces_panel.py:283
+msgid "Group name"
+msgstr "Nombre del grupo"
+
+#: src/handcue/ui/faces_panel.py:283
+msgid "Rename group"
+msgstr "Cambiar nombre"
+
+#: src/handcue/ui/faces_panel.py:295
+#, python-brace-format
+msgid "The group “{name}” and its actions will be deleted."
+msgstr "Se eliminará el grupo «{name}» y sus acciones."
+
+#: src/handcue/ui/faces_panel.py:297
+#, python-brace-format
+msgid "Its {n} member will be left without a group."
+msgid_plural "Its {n} members will be left without a group."
+msgstr[0] "Su persona quedará sin grupo."
+msgstr[1] "Sus {n} personas quedarán sin grupo."
+
+#: src/handcue/ui/faces_panel.py:306
+msgid "Every registered person and their samples will be deleted. Groups are kept."
+msgstr "Se eliminarán todas las personas registradas y sus muestras. Los grupos se conservan."
+
+#: src/handcue/ui/faces_panel.py:333
+msgid "New person"
+msgstr "Nueva persona"
+
+#: src/handcue/ui/faces_panel.py:333
+msgid "Edit person"
+msgstr "Editar persona"
+
+#: src/handcue/ui/faces_panel.py:342
+msgid "For example: Alex"
+msgstr "Por ejemplo: Marta"
+
+#: src/handcue/ui/faces_panel.py:345 src/handcue/ui/gestures_panel.py:429
+msgid "Name"
+msgstr "Nombre"
+
+#: src/handcue/ui/faces_panel.py:352
+msgid "Group"
+msgstr "Grupo"
+
+#: src/handcue/ui/faces_panel.py:356
+msgid "SAMPLES"
+msgstr "MUESTRAS"
+
+#: src/handcue/ui/faces_panel.py:360
+msgid "Remove"
+msgstr "Quitar"
+
+#: src/handcue/ui/faces_panel.py:384
+msgid "Capture with the camera"
+msgstr "Capturar con la cámara"
+
+#: src/handcue/ui/faces_panel.py:386
+msgid "Add photos…"
+msgstr "Añadir fotos…"
+
+#: src/handcue/ui/faces_panel.py:389
+msgid "10 to 20 samples from different angles and lighting work best. Photos must show the face clearly; if there are several people, the largest face is used."
+msgstr "Lo ideal son 10–20 muestras con distintos ángulos y luces. Las fotos deben mostrar bien la cara; si hay varias personas se usa la cara más grande."
+
+#: src/handcue/ui/faces_panel.py:397 src/handcue/ui/gestures_panel.py:448
+msgid "Delete"
+msgstr "Eliminar"
+
+#: src/handcue/ui/faces_panel.py:401 src/handcue/ui/gestures_panel.py:455
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: src/handcue/ui/faces_panel.py:404 src/handcue/ui/gestures_panel.py:458
+msgid "Save"
+msgstr "Guardar"
+
+#: src/handcue/ui/faces_panel.py:444
+msgid "Photos of the person"
+msgstr "Fotos de la persona"
+
+#: src/handcue/ui/faces_panel.py:445 src/handcue/ui/virtual_camera_panel.py:147
+#, python-brace-format
+msgid "Images ({patterns})"
+msgstr "Imágenes ({patterns})"
+
+#: src/handcue/ui/faces_panel.py:457
+#, python-brace-format
+msgid "{n} added"
+msgid_plural "{n} added"
+msgstr[0] "{n} añadida"
+msgstr[1] "{n} añadidas"
+
+#: src/handcue/ui/faces_panel.py:459
+#, python-brace-format
+msgid "{n} without a recognizable face"
+msgid_plural "{n} without a recognizable face"
+msgstr[0] "{n} sin cara reconocible"
+msgstr[1] "{n} sin cara reconocible"
+
+#: src/handcue/ui/faces_panel.py:462
+#, python-brace-format
+msgid "{n} almost identical to another"
+msgid_plural "{n} almost identical to others"
+msgstr[0] "{n} casi igual a otra"
+msgstr[1] "{n} casi iguales a otras"
+
+#: src/handcue/ui/faces_panel.py:475
+msgid "The camera is not available."
+msgstr "La cámara no está disponible."
+
+#: src/handcue/ui/faces_panel.py:478
+msgid "The camera is covered: open the privacy shutter."
+msgstr "La cámara está tapada: abre la pestaña de privacidad."
+
+#: src/handcue/ui/faces_panel.py:494
+#, python-brace-format
+msgid "Capture finished: {n} new sample."
+msgid_plural "Capture finished: {n} new samples."
+msgstr[0] "Captura terminada: {n} muestra nueva."
+msgstr[1] "Captura terminada: {n} muestras nuevas."
+
+#: src/handcue/ui/faces_panel.py:513
+msgid "Look at the camera and turn your head a little to the sides, up and down."
+msgstr "Mira a la cámara y gira un poco la cabeza hacia los lados y arriba y abajo."
+
+#: src/handcue/ui/faces_panel.py:514
+#, python-brace-format
+msgid "{done} of {total} · {seconds} s"
+msgstr "{done} de {total} · {seconds} s"
+
+#: src/handcue/ui/faces_panel.py:523
+msgid "Delete person"
+msgstr "Eliminar persona"
+
+#: src/handcue/ui/faces_panel.py:524
+#, python-brace-format
+msgid "“{name}”, their samples and their actions will be deleted."
+msgstr "Se borrarán «{name}», sus muestras y sus acciones."
+
+#: src/handcue/ui/gestures_panel.py:26
+msgid "Volume up"
+msgstr "Subir volumen"
+
+#: src/handcue/ui/gestures_panel.py:26
+msgid "Volume down"
+msgstr "Bajar volumen"
+
+#: src/handcue/ui/gestures_panel.py:26
+msgid "Mute"
+msgstr "Silenciar"
+
+#: src/handcue/ui/gestures_panel.py:27
+msgid "Action"
+msgstr "Acción"
+
+#: src/handcue/ui/gestures_panel.py:27
+msgid "Application"
+msgstr "Aplicación"
+
+#: src/handcue/ui/gestures_panel.py:27
+msgid "Web address"
+msgstr "Dirección web"
+
+#: src/handcue/ui/gestures_panel.py:27
+msgid "Text"
+msgstr "Texto"
+
+#: src/handcue/ui/gestures_panel.py:28
+msgid "Key combination"
+msgstr "Combinación de teclas"
+
+#: src/handcue/ui/gestures_panel.py:28
+msgid "Command"
+msgstr "Comando"
+
+#: src/handcue/ui/gestures_panel.py:28
+msgid "Sound"
+msgstr "Sonido"
+
+#: src/handcue/ui/gestures_panel.py:29
+msgid "Message"
+msgstr "Mensaje"
+
+#: src/handcue/ui/gestures_panel.py:29
+msgid "Countdown (seconds)"
+msgstr "Cuenta atrás (segundos)"
+
+#: src/handcue/ui/gestures_panel.py:30
+msgid "Text to type"
+msgstr "Texto que se escribirá"
+
+#: src/handcue/ui/gestures_panel.py:30
+msgid "For example: notify-send Hello"
+msgstr "Por ejemplo: notify-send Hola"
+
+#: src/handcue/ui/gestures_panel.py:31
+msgid "Notification text"
+msgstr "Texto de la notificación"
+
+#: src/handcue/ui/gestures_panel.py:31
+msgid "Search for an app"
+msgstr "Busca una aplicación"
+
+#: src/handcue/ui/gestures_panel.py:32
+msgid "For example: ctrl+c"
+msgstr "Por ejemplo: ctrl+c"
+
+#: src/handcue/ui/gestures_panel.py:33
+msgid "left hand"
+msgstr "mano izquierda"
+
+#: src/handcue/ui/gestures_panel.py:33
+msgid "right hand"
+msgstr "mano derecha"
+
+#: src/handcue/ui/gestures_panel.py:33
+msgid "both hands"
+msgstr "las dos manos"
+
+#: src/handcue/ui/gestures_panel.py:71
+#, python-brace-format
+msgid "Open {app}"
+msgstr "Abrir {app}"
+
+#: src/handcue/ui/gestures_panel.py:73
+#, python-brace-format
+msgid "Photo with a {seconds} s countdown"
+msgstr "Foto con cuenta atrás de {seconds} s"
+
+#: src/handcue/ui/gestures_panel.py:75
+#, python-brace-format
+msgid "Sound “{name}”"
+msgstr "Sonido «{name}»"
+
+#: src/handcue/ui/gestures_panel.py:141
+msgid "instant"
+msgstr "al instante"
+
+#: src/handcue/ui/gestures_panel.py:186
+msgid "Recognition"
+msgstr "Reconocimiento"
+
+#: src/handcue/ui/gestures_panel.py:190
+msgid "Detect"
+msgstr "Detectar"
+
+#: src/handcue/ui/gestures_panel.py:195
+msgid "Recognize hand gestures"
+msgstr "Reconocer gestos de las manos"
+
+#: src/handcue/ui/gestures_panel.py:196
+msgid "Recognize facial expressions"
+msgstr "Reconocer expresiones de la cara"
+
+#: src/handcue/ui/gestures_panel.py:197
+msgid "Recognize body poses"
+msgstr "Reconocer posturas del cuerpo"
+
+#: src/handcue/ui/gestures_panel.py:208
+msgid "Add gesture"
+msgstr "Añadir gesto"
+
+#: src/handcue/ui/gestures_panel.py:210
+msgid "More options"
+msgstr "Más opciones"
+
+#: src/handcue/ui/gestures_panel.py:212
+msgid "Enable all"
+msgstr "Activar todos"
+
+#: src/handcue/ui/gestures_panel.py:213
+msgid "Disable all"
+msgstr "Desactivar todos"
+
+#: src/handcue/ui/gestures_panel.py:215 src/handcue/ui/gestures_panel.py:261
+msgid "Restore examples"
+msgstr "Restaurar ejemplos"
+
+#: src/handcue/ui/gestures_panel.py:241
+msgid "No gestures yet. Press + to create the first one."
+msgstr "Aún no tienes gestos. Pulsa + para crear el primero."
+
+#: src/handcue/ui/gestures_panel.py:261
+msgid "Your gestures will be replaced by the examples."
+msgstr "Se sustituirán tus gestos por los de ejemplo."
+
+#: src/handcue/ui/gestures_panel.py:270 src/handcue/ui/gestures_panel.py:308
+msgid "Waiting for gestures"
+msgstr "Esperando gestos"
+
+#: src/handcue/ui/gestures_panel.py:303
+#, python-brace-format
+msgid "{n} hand"
+msgid_plural "{n} hands"
+msgstr[0] "{n} mano"
+msgstr[1] "{n} manos"
+
+#: src/handcue/ui/gestures_panel.py:304
+#, python-brace-format
+msgid "{n} face"
+msgid_plural "{n} faces"
+msgstr[0] "{n} cara"
+msgstr[1] "{n} caras"
+
+#: src/handcue/ui/gestures_panel.py:310 src/handcue/ui/window.py:456
+#: src/handcue/ui/window.py:483
+msgid "Camera covered: detection paused"
+msgstr "Cámara tapada: detección en pausa"
+
+#: src/handcue/ui/gestures_panel.py:312
+msgid "Blocked: turn on face recognition (Faces tab)"
+msgstr "Bloqueado: activa el reconocimiento facial (pestaña Caras)"
+
+#: src/handcue/ui/gestures_panel.py:314
+msgid "Waiting for a registered person"
+msgstr "Esperando a una persona registrada"
+
+#: src/handcue/ui/gestures_panel.py:316
+msgid "Paused"
+msgstr "En pausa"
+
+#: src/handcue/ui/gestures_panel.py:318
+msgid "Virtual mouse active"
+msgstr "Ratón virtual activo"
+
+#: src/handcue/ui/gestures_panel.py:366
+msgid "New gesture"
+msgstr "Nuevo gesto"
+
+#: src/handcue/ui/gestures_panel.py:366
+msgid "Edit gesture"
+msgstr "Editar gesto"
+
+#: src/handcue/ui/gestures_panel.py:377
+msgid "WHEN YOU DO"
+msgstr "CUANDO HAGAS"
+
+#: src/handcue/ui/gestures_panel.py:394
+msgid "Detection time"
+msgstr "Tiempo de detección"
+
+#: src/handcue/ui/gestures_panel.py:395
+msgid "How long the gesture must be seen before acting. Prevents accidental triggers."
+msgstr "Cuánto tiempo debe detectarse antes de actuar. Evita activaciones accidentales."
+
+#: src/handcue/ui/gestures_panel.py:400
+msgid "THEN"
+msgstr "ENTONCES"
+
+#: src/handcue/ui/gestures_panel.py:424
+msgid "Advanced options"
+msgstr "Opciones avanzadas"
+
+#: src/handcue/ui/gestures_panel.py:427
+msgid "Optional"
+msgstr "Opcional"
+
+#: src/handcue/ui/gestures_panel.py:435
+msgid "Hand"
+msgstr "Mano"
+
+#: src/handcue/ui/gestures_panel.py:439
+msgid "Time between uses"
+msgstr "Tiempo entre usos"
+
+#: src/handcue/ui/gestures_panel.py:440
+msgid "Repeat while held"
+msgstr "Repetir mientras se mantiene"
+
+#: src/handcue/ui/gestures_panel.py:441
+msgid "Useful for volume or scrolling"
+msgstr "Útil para el volumen o para desplazarse"
+
+#: src/handcue/ui/gestures_panel.py:452
+msgid "Try it"
+msgstr "Probar"
+
+#: src/handcue/ui/gestures_panel.py:481
+msgid "Fires instantly."
+msgstr "Se activa al instante."
+
+#: src/handcue/ui/gestures_panel.py:507 src/handcue/ui/gestures_panel.py:540
+msgid "Value"
+msgstr "Valor"
+
+#: src/handcue/ui/gestures_panel.py:539
+msgid "Missing value"
+msgstr "Falta un dato"
+
+#: src/handcue/ui/gestures_panel.py:539
+#, python-brace-format
+msgid "Please fill in: {field}."
+msgstr "Indica: {field}."
+
+#: src/handcue/ui/gestures_panel.py:548
+msgid "Invalid value"
+msgstr "Valor no válido"
+
+#: src/handcue/ui/gestures_panel.py:553
+msgid "Delete gesture"
+msgstr "Eliminar gesto"
+
+#: src/handcue/ui/gestures_panel.py:553
+msgid "This cannot be undone."
+msgstr "Esta acción no se puede deshacer."
+
+#: src/handcue/ui/preferences.py:15
+msgid "Hand gestures"
+msgstr "Gestos de mano"
+
+#: src/handcue/ui/preferences.py:15
+msgid "Swipes"
+msgstr "Deslizamientos"
+
+#: src/handcue/ui/preferences.py:16
+msgid "Winks and closed eyes"
+msgstr "Guiños y ojos cerrados"
+
+#: src/handcue/ui/preferences.py:16
+msgid "Eyebrows"
+msgstr "Cejas"
+
+#: src/handcue/ui/preferences.py:17
+msgid "Cheeks"
+msgstr "Mejillas"
+
+#: src/handcue/ui/preferences.py:17
+msgid "Head turn"
+msgstr "Giro de cabeza"
+
+#: src/handcue/ui/preferences.py:17
+msgid "Head tilt"
+msgstr "Inclinación de cabeza"
+
+#: src/handcue/ui/preferences.py:26 src/handcue/ui/preferences.py:34
+#: src/handcue/ui/window.py:121
+msgid "Preferences"
+msgstr "Preferencias"
+
+#: src/handcue/ui/preferences.py:38
+msgid "General"
+msgstr "General"
+
+#: src/handcue/ui/preferences.py:39
+msgid "Start when I log in"
+msgstr "Iniciar al encender el ordenador"
+
+#: src/handcue/ui/preferences.py:40
+msgid "Runs in the background and restores the camera settings"
+msgstr "Arranca en segundo plano y restaura los ajustes de la cámara"
+
+#: src/handcue/ui/preferences.py:42
+msgid "Pause when the camera is covered"
+msgstr "Pausar con la cámara tapada"
+
+#: src/handcue/ui/preferences.py:43
+msgid "Notices the privacy shutter and stops detection, so it does not report things like “nobody there”"
+msgstr "Detecta la pestaña de privacidad y detiene la detección para evitar falsos avisos como «no hay nadie»"
+
+#: src/handcue/ui/preferences.py:48 src/handcue/ui/virtual_camera_panel.py:73
+msgid "Choose…"
+msgstr "Elegir…"
+
+#: src/handcue/ui/preferences.py:50
+msgid "Folder for photos and screenshots"
+msgstr "Carpeta de fotos y capturas"
+
+#: src/handcue/ui/preferences.py:54
+msgid "Keyboard and mouse"
+msgstr "Teclado y ratón"
+
+#: src/handcue/ui/preferences.py:57
+msgid "Grant permission"
+msgstr "Conceder permiso"
+
+#: src/handcue/ui/preferences.py:59
+msgid "Revoke"
+msgstr "Revocar"
+
+#: src/handcue/ui/preferences.py:62
+msgid "Needed for gestures that type text, press keys or move the mouse. The desktop asks for confirmation once."
+msgstr "Necesario para que un gesto escriba texto, pulse teclas o mueva el ratón. El escritorio pide confirmación una sola vez."
+
+#: src/handcue/ui/preferences.py:64
+msgid "Either"
+msgstr "Cualquiera"
+
+#: src/handcue/ui/preferences.py:67
+msgid "Virtual mouse hand"
+msgstr "Mano del ratón virtual"
+
+#: src/handcue/ui/preferences.py:68
+msgid "Pointer speed"
+msgstr "Velocidad del puntero"
+
+#: src/handcue/ui/preferences.py:71
+msgid "Smoothing"
+msgstr "Suavizado"
+
+#: src/handcue/ui/preferences.py:76
+msgid "Sensitivity"
+msgstr "Sensibilidad"
+
+#: src/handcue/ui/preferences.py:77
+msgid "Higher values need more pronounced gestures and reduce accidental triggers."
+msgstr "Valores más altos exigen gestos más marcados y reducen las activaciones accidentales."
+
+#: src/handcue/ui/preferences.py:89
+msgid "Hands at once"
+msgstr "Manos simultáneas"
+
+#: src/handcue/ui/preferences.py:90
+msgid "People at once"
+msgstr "Personas simultáneas"
+
+#: src/handcue/ui/preferences.py:93
+msgid "Activity log"
+msgstr "Registro de actividad"
+
+#: src/handcue/ui/preferences.py:95
+msgid "No activity yet."
+msgstr "Sin actividad todavía."
+
+#: src/handcue/ui/preferences.py:106
+msgid "Done"
+msgstr "Hecho"
+
+#: src/handcue/ui/preferences.py:120
+msgid "Connected"
+msgstr "Conectado"
+
+#: src/handcue/ui/preferences.py:123
+msgid "Permission granted"
+msgstr "Permiso concedido"
+
+#: src/handcue/ui/preferences.py:126
+msgid "No permission"
+msgstr "Sin permiso"
+
+#: src/handcue/ui/preferences.py:130
+msgid "Photo folder"
+msgstr "Carpeta de fotos"
+
+#: src/handcue/ui/preview.py:18 src/handcue/ui/window.py:273
+msgid "Opening the camera…"
+msgstr "Abriendo la cámara…"
+
+#: src/handcue/ui/virtual_camera_panel.py:13
+msgid "Original"
+msgstr "Original"
+
+#: src/handcue/ui/virtual_camera_panel.py:13
+msgid "Blur"
+msgstr "Desenfocar"
+
+#: src/handcue/ui/virtual_camera_panel.py:29
+#: src/handcue/ui/virtual_camera_panel.py:30
+msgid "Virtual camera"
+msgstr "Cámara virtual"
+
+#: src/handcue/ui/virtual_camera_panel.py:39
+msgid "To use it in Meet, Zoom or OBS, the v4l2loopback module has to be installed once. Run this in a terminal (it will ask for your password):"
+msgstr "Para usarla en Meet, Zoom u OBS hay que instalar una vez el módulo v4l2loopback. Ejecuta esto en una terminal (te pedirá tu contraseña):"
+
+#: src/handcue/ui/virtual_camera_panel.py:49
+msgid "Copy command"
+msgstr "Copiar comando"
+
+#: src/handcue/ui/virtual_camera_panel.py:51
+msgid "Copied"
+msgstr "Copiado"
+
+#: src/handcue/ui/virtual_camera_panel.py:52
+msgid "Check again"
+msgstr "Comprobar"
+
+#: src/handcue/ui/virtual_camera_panel.py:61
+msgid "Background"
+msgstr "Fondo"
+
+#: src/handcue/ui/virtual_camera_panel.py:65
+msgid "Blur strength"
+msgstr "Intensidad del desenfoque"
+
+#: src/handcue/ui/virtual_camera_panel.py:71
+#: src/handcue/ui/virtual_camera_panel.py:141
+msgid "Background color"
+msgstr "Color del fondo"
+
+#: src/handcue/ui/virtual_camera_panel.py:75
+#: src/handcue/ui/virtual_camera_panel.py:146
+msgid "Background image"
+msgstr "Imagen de fondo"
+
+#: src/handcue/ui/virtual_camera_panel.py:80
+msgid "720p is what Meet, Zoom and Teams use"
+msgstr "720p es lo que usan Meet, Zoom y Teams"
+
+#: src/handcue/ui/virtual_camera_panel.py:81
+msgid "Mirror the image"
+msgstr "Reflejar la imagen"
+
+#: src/handcue/ui/virtual_camera_panel.py:82
+msgid "When off, others see you as a person in front of you would, and can read any text you hold up"
+msgstr "Desactivado, los demás te ven como te vería alguien delante y leen bien los textos que enseñes"
+
+#: src/handcue/ui/virtual_camera_panel.py:100
+#, python-brace-format
+msgid "In Meet, Zoom or OBS pick the camera “{name}”, not the real one: this app is using the real camera and it cannot be shared."
+msgstr "En Meet, Zoom u OBS elige la cámara «{name}», no la real: la real la está usando esta app y no se puede compartir."
+
+#: src/handcue/ui/virtual_camera_panel.py:109
+msgid "None chosen"
+msgstr "Ninguna elegida"
+
+#: src/handcue/ui/virtual_camera_panel.py:111
+#: src/handcue/ui/virtual_camera_panel.py:123
+msgid "Module not installed"
+msgstr "Falta instalar el módulo"
+
+#: src/handcue/ui/virtual_camera_panel.py:121
+#, python-brace-format
+msgid "Streaming as “{name}” ({path})"
+msgstr "Emitiendo como «{name}» ({path})"
+
+#: src/handcue/ui/virtual_camera_panel.py:126
+msgid "The module is loaded but there is no virtual camera"
+msgstr "El módulo está cargado pero no hay cámara virtual"
+
+#: src/handcue/ui/virtual_camera_panel.py:128
+#, python-brace-format
+msgid "Error: {error}"
+msgstr "Error: {error}"
+
+#: src/handcue/ui/virtual_camera_panel.py:132
+msgid "Starting…"
+msgstr "Iniciando…"
+
+#: src/handcue/ui/widgets.py:305
+msgid "Double-click to reset"
+msgstr "Doble clic para restablecer"
+
+#: src/handcue/ui/window.py:69
+#, python-brace-format
+msgid "Could not read the saved faces: {error}"
+msgstr "No se pudieron leer las caras guardadas: {error}"
+
+#: src/handcue/ui/window.py:147
+msgid "Mirror"
+msgstr "Espejo"
+
+#: src/handcue/ui/window.py:148
+msgid "Rule-of-thirds grid"
+msgstr "Cuadrícula de tercios"
+
+#: src/handcue/ui/window.py:149
+msgid "Histogram"
+msgstr "Histograma"
+
+#: src/handcue/ui/window.py:150
+msgid "Zebra (overexposed areas)"
+msgstr "Zebra (zonas sobreexpuestas)"
+
+#: src/handcue/ui/window.py:157
+msgid "Show what is recognized"
+msgstr "Mostrar lo que se reconoce"
+
+#: src/handcue/ui/window.py:158
+msgid "Visual effects on the hands"
+msgstr "Efectos visuales sobre las manos"
+
+#: src/handcue/ui/window.py:201
+msgid "Someone unknown is in front of the camera"
+msgstr "Hay alguien desconocido delante de la cámara"
+
+#: src/handcue/ui/window.py:231
+msgid "No camera"
+msgstr "Ninguna cámara"
+
+#: src/handcue/ui/window.py:261
+msgid "Connect a camera"
+msgstr "Conecta una cámara"
+
+#: src/handcue/ui/window.py:262
+msgid "Waiting for a camera"
+msgstr "Esperando cámara"
+
+#: src/handcue/ui/window.py:268
+#, python-brace-format
+msgid "Cannot open the camera ({error})"
+msgstr "No se puede abrir la cámara ({error})"
+
+#: src/handcue/ui/window.py:274
+msgid "Connecting…"
+msgstr "Conectando…"
+
+#: src/handcue/ui/window.py:328
+msgid "Camera settings restored"
+msgstr "Ajustes de cámara restaurados"
+
+#: src/handcue/ui/window.py:333
+msgid "No signal"
+msgstr "Sin señal"
+
+#: src/handcue/ui/window.py:354
+#, python-brace-format
+msgid "Profile “{name}” saved"
+msgstr "Perfil «{name}» guardado"
+
+#: src/handcue/ui/window.py:359
+#, python-brace-format
+msgid "Profile “{name}” deleted"
+msgstr "Perfil «{name}» borrado"
+
+#: src/handcue/ui/window.py:382
+#, python-brace-format
+msgid "Could not save the settings: {error}"
+msgstr "No se pudo guardar la configuración: {error}"
+
+#: src/handcue/ui/window.py:388
+msgid "The camera is needed to try this action"
+msgstr "Hace falta la cámara para probar esta acción"
+
+#: src/handcue/ui/window.py:397
+msgid "Keyboard and mouse permission revoked"
+msgstr "Permiso de teclado y ratón revocado"
+
+#: src/handcue/ui/window.py:435
+msgid "Open control panel"
+msgstr "Abrir panel de control"
+
+#: src/handcue/ui/window.py:437
+msgid "Gestures enabled"
+msgstr "Gestos activados"
+
+#: src/handcue/ui/window.py:441
+msgid "Take photo (3 s)"
+msgstr "Hacer foto (3 s)"
+
+#: src/handcue/ui/window.py:443
+msgid "Quit"
+msgstr "Salir"
+
+#: src/handcue/ui/window.py:454
+msgid "Gestures off"
+msgstr "Gestos desactivados"
+
+#: src/handcue/ui/window.py:460
+msgid "Recognizing gestures"
+msgstr "Reconociendo gestos"
+
+#: src/handcue/ui/window.py:485
+msgid "Active"
+msgstr "Activa"
+
+#: src/handcue/ui/window.py:486
+msgid "Camera uncovered: detection active"
+msgstr "Cámara destapada: detección activa"
+
+#: src/handcue/ui/window.py:523
+#, python-brace-format
+msgid "{app} is still running"
+msgstr "{app} sigue activo"
+
+#: src/handcue/ui/window.py:524
+msgid "It is in the system tray. To quit completely, right-click it and choose Quit."
+msgstr "Está en la bandeja del sistema. Para cerrarlo del todo: clic derecho y Salir."
+

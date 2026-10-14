@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.github.ignacio_aranda.HandCue</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+  <name>HandCue</name>
+  <summary>Control your computer with gestures from your webcam</summary>
+  <summary xml:lang="es">Controla el ordenador con gestos desde la webcam</summary>
+  <developer id="io.github.ignacio_aranda">
+    <name>Ignacio Aranda</name>
+  </developer>
+  <description>
+    <p>
+      HandCue recognizes hand, face and body gestures with your webcam and turns them
+      into actions: media keys, apps, websites, keyboard shortcuts, typing, a virtual mouse,
+      photos and more. Everything runs locally.
+    </p>
+    <ul>
+      <li>Over 35 gestures, each with its own hold time and cooldown</li>
+      <li>Face recognition with groups, and an option to only obey registered people</li>
+      <li>Webcam controls (exposure, white balance, focus, zoom and framing) with profiles</li>
+      <li>Virtual camera with background blur, color or image for Meet, Zoom or OBS</li>
+      <li>Pauses itself when the privacy shutter is closed</li>
+    </ul>
+  </description>
+  <launchable type="desktop-id">io.github.ignacio_aranda.HandCue.desktop</launchable>
+  <url type="homepage">https://github.com/Ignacio-Aranda/handcue</url>
+  <url type="bugtracker">https://github.com/Ignacio-Aranda/handcue/issues</url>
+  <content_rating type="oars-1.1"/>
+  <recommends>
+    <control>pointing</control>
+    <control>keyboard</control>
+  </recommends>
+  <releases>
+    <release version="0.1.0" date="2026-10-14">
+      <description>
+        <p>First public release.</p>
+      </description>
+    </release>
+  </releases>
+</component>

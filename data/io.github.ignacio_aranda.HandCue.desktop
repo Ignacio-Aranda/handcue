@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Name=HandCue
+GenericName=Gesture control
+GenericName[es]=Control por gestos
+Comment=Control your computer with gestures and adjust your webcam
+Comment[es]=Controla el ordenador con gestos y ajusta tu webcam
+Exec=handcue
+Icon=io.github.ignacio_aranda.HandCue
+Terminal=false
+Categories=Utility;AudioVideo;Video;
+Keywords=webcam;camera;gestures;virtual camera;face recognition;
+Keywords[es]=webcam;cámara;gestos;cámara virtual;reconocimiento facial;
+StartupNotify=true
